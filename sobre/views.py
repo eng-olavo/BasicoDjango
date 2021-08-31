@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
-def home(request):
+def sobre(request):
     #return render(request,'home/home.html')
-    return render(request,'home.html')
+    return render(request,'sobre.html')
+

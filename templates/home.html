@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HomePage</title>
-</head>
-<body>
-    <h3>Home Page</h3>
-    <h5>Em BasicoDjango/templates/home.html</h5>
-</body>
-</html>
+{%extends 'base.html'%}
+
+{% block 'titulo'%}HOME{%endblock%}
+
+{% block 'conteudo'%}
+    <h3>Eu sou a Home!</h3>
+{%endblock%}
+
+
